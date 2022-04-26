@@ -1,23 +1,30 @@
 <template>
     <div>
-        <div class="p-3 mb-2 bg-dark text-white">
-                    Image.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
-vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
-Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
-faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
-Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. 
-Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, 
-non dictum mauris. Nulla at tellus sagittis, viverra est a, bibendum metus.    
-    </div>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-md-6">
+                    <img :src="image" class="rounded-circle" width ="400" height ="400">
+                </div>
+                <div class="col-md-2 offset-md-2">
+                    find me
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 <script>
 export default {
-    name:'FindMe'
+    name:'FindMe',
+    data(){
+        return{
+            image:'/assets/mkt.jpeg',
+        }
+    }
 }
 </script>
+<style scoped>
+    .container{
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+</style>

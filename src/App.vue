@@ -17,16 +17,12 @@
                   <li class="nav-item">
                       <a class="nav-link" href="">Works</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="">FindMe</a>
-                  </li>
               </ul>
           </div>
       </div>
     </nav>
   <HomePage/>
   <AboutPage/>
-  <WorkPage/>
   <FindMe/>
   </div>
 </template>
@@ -34,13 +30,12 @@
 <script>
 import HomePage from './components/Home.vue'
 import AboutPage from './components/About.vue'
-import WorkPage from './components/Works.vue'
 import FindMe from './components/FindMe.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage, AboutPage, WorkPage, FindMe
+    HomePage, AboutPage, FindMe
   }
 }
 </script>
@@ -54,5 +49,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   background-color: #1c1c1c;
+}
+.navbar  {
+  cursor: pointer;
+  position: fixed;
 }
 </style>

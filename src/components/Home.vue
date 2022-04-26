@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-md-2 offset-md-2">
-                    <img :src="image" class="rounded-circle" width ="500" height ="500">
+                    <img :src="image" class="rounded-circle" width ="400" height ="400">
                 </div>
             </div>
         </div>
@@ -35,6 +35,9 @@ export default {
 .container{
     margin-top: 100px;
     margin-bottom: 200px;
+}
+.col-md-2 {
+    margin-top: 100px;
 }
 .row {
    display: flex;

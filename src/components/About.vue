@@ -2,9 +2,9 @@
     <article>
     <h2>A little about me</h2>
     <p>
-        I am an Inquisitive, experienced full stack developer, with a good foundation in math, logic, and
-        cross-platform coding. Enthusiastic Software Engineer/Data Science experience participating in the complete
-        product development lifecycle of successfully launched applications. I am proficient in the the following areas
+    I am an Inquisitive, experienced full stack developer, with a good foundation in math, logic, and
+    cross-platform coding. Enthusiastic Software Engineer/Data Science experience participating in the complete
+    product development lifecycle of successfully launched applications. I am proficient in the the following areas
       <span
         ref="reactive"
         @mouseenter="reactiveHighlight"
