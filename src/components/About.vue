@@ -1,10 +1,11 @@
 <template>
+  <div class="div">
     <article>
     <h2>A little about me</h2>
     <p>
     I am an Inquisitive, experienced full stack developer, with a good foundation in math, logic, and
-    cross-platform coding. Enthusiastic Software Engineer/Data Science experience participating in the complete
-    product development lifecycle of successfully launched applications. I am proficient in the the following areas
+    cross-platform coding. Enthusiastic Software Engineer/Data Science experienced participating in the complete
+    product development lifecycle of successfully launched applications. I am proficient in the the following technologies
       <span
         ref="reactive"
         @mouseenter="reactiveHighlight"
@@ -49,12 +50,13 @@
         <img :src="machine" alt="figma" />
       </li>
       <li>
-        <a>
+        <a :href="pdf" download>
           <button>Resume</button>
         </a>
       </li>
     </ul>
   </article>
+  </div>
 </template>
 <script>
 import { TimelineLite } from "gsap/dist/gsap";
@@ -69,6 +71,7 @@ export default {
        java:'/assets/java.png',
        python:'/assets/python.png',
        machine:'/assets/machine-learning.png',
+       pdf:'/assets/cv.pdf',
        }
    },
     methods: {
@@ -124,33 +127,29 @@ export default {
 }
 </script>
 <style scoped>
-/* article{
-    background-color: #1c1c1c;
-    margin-top: 200px;
-    margin-bottom: 200px;
-} */
+.div{
+  background-color:#1b1b1d;
+}
+article{
+  margin: 300px;
+
+}
 p {
   font-size: clamp(16px, 1.2vw, 1.2vw);
   line-height: 2;
   color: #9d9d9d;
-  /* margin: 50px; */
-  text-align: center;
-  
 }
 
 h2 {
   font-size: clamp(24px, 3vw, 3vw);
   font-weight: 300;
   margin: 0;
-  margin-top: 200px;
-  margin-right: 1350px;
 }
 ul {
   margin-top: clamp(3em, 4vw, 4vw);
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 200px;
 }
 img {
   height: 30px;
