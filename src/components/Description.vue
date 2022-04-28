@@ -1,23 +1,21 @@
 <template>
-  <div class="div">
-    <article>
+  <article>
     <h2>A little about me</h2>
     <p>
-    I am an Inquisitive, experienced full stack developer, with a good foundation in math, logic, and
-    cross-platform coding. Enthusiastic Software Engineer/Data Science experienced participating in the complete
-    product development lifecycle of successfully launched applications. I am proficient in the the following technologies
+      I am a Front-End Developer with experience in building responsive websites
+      while keeping the aesthetic integrity. Proficient in semantic
       <span
         ref="reactive"
         @mouseenter="reactiveHighlight"
         @mouseleave="reactiveHighlightRemove"
-        >HTML, CSS, JavaScript, PHP and Python</span
+        >HTML, CSS, JavaScript</span
       >
       and modern frameworks like
       <span
         ref="gdesign"
         @mouseenter="gHighlight"
         @mouseleave="gHighlightRemove"
-        >VueJs and Laravel</span
+        >VueJs</span
       >
       . Always puts effort in making User Interface beautiful and practical with
       tools like
@@ -25,29 +23,35 @@
         ref="uidesign"
         @mouseenter="uiHighlight"
         @mouseleave="uiHighlightRemove"
-        >Figma.</span>
+        >Figma</span
+      >
+      .
     </p>
     <p>
-      In my free time I work on cool projects in Machine Learning.
+      In my free time I work on cool projects while experimenting with new
+      technologies especially in the field of AI. Currently I'm working on OCR a document, form, or invoice with Tesseract, OpenCV, and Python.
     </p>
     <ul>
       <li>
-        <img :src="js" alt="javascipt" />
+        <img src="../assets/icons/js.gif" alt="javascipt" />
       </li>
       <li>
-        <img :src="image1" alt="vuejs" />
+        <img src="../assets/icons/vue.svg" alt="vuejs" />
       </li>
       <li>
-        <img :src="laravel" alt="laravel" />
+        <img src="../assets/icons/laravel.svg" alt="Laravel" />
       </li>
       <li>
-        <img :src="java" alt="nodejs" />
+        <img src="../assets/icons/java.png" alt="Java" />
       </li>
       <li>
-        <img :src="python" alt="photoshop" />
+        <img src="../assets/icons/python.png" alt="python" />
       </li>
       <li>
-        <img :src="machine" alt="figma" />
+        <img src="../assets/icons/figma.svg" alt="figma" />
+      </li>
+      <li>
+        <img src="../assets/icons/machine-learning.png" alt="figma" />
       </li>
       <li>
         <a :href="pdf" download>
@@ -56,25 +60,18 @@
       </li>
     </ul>
   </article>
-  </div>
 </template>
+
 <script>
 import { TimelineLite } from "gsap/dist/gsap";
 export default {
-    name:'AboutPage',
-
-    data(){
-       return{
-       image1:'/assets/image1.svg',
-       laravel:'/assets/laravel.svg',
-       js:'/assets/js.gif',
-       java:'/assets/java.png',
-       python:'/assets/python.png',
-       machine:'/assets/machine-learning.png',
-       pdf:'/assets/cv.pdf',
-       }
-   },
-    methods: {
+  name: "DescriptionComponent",
+  data() {
+    return {
+      pdf: "../assets/cv.pdf"
+    };
+  },
+  methods: {
     reactiveHighlight() {
       const tl = new TimelineLite();
       const { reactive } = this.$refs;
@@ -124,16 +121,10 @@ export default {
       });
     },
   },
-}
+};
 </script>
-<style scoped>
-.div{
-  background-color:#1b1b1d;
-}
-article{
-  margin: 300px;
 
-}
+<style scoped>
 p {
   font-size: clamp(16px, 1.2vw, 1.2vw);
   line-height: 2;

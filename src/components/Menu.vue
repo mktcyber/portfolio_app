@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "Menu-bar",
+  name: "MenuComponent",
   methods: {
     openURL(url) {
       document.getElementById(url).scrollIntoView({ behavior: "smooth" });

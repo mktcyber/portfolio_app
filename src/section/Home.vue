@@ -1,14 +1,14 @@
 <template>
   <div id="home">
-    <Homie class="hero" />
+    <Hero class="hero" />
   </div>
 </template>
 
 <script>
-import Homie from './Homie.vue'
+import Hero from "../components/Hero";
 export default {
-  name: "HomePage",
-  components: { Homie }
+  name: "HomeSection",
+  components: { Hero }
 };
 </script>
 

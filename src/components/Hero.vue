@@ -13,7 +13,7 @@
         @mouseleave="imagePopdown"
         ref="img"
         src="../assets/images/mkt.jpeg"
-        alt="Portrait photo of Modou K Touray"
+        alt="Portrait photo of Ayushman"
       />
     </aside>
   </main>
@@ -22,7 +22,7 @@
 <script>
 import { TimelineLite } from "gsap/dist/gsap";
 export default {
-  name: "Homie-h",
+  name: "HeroComponent",
   mounted() {
     const greeting = this.$refs.greeting;
     const name = this.$refs.name;

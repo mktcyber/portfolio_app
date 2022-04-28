@@ -5,7 +5,7 @@
       <img
         ref="img"
         src="../assets/images/mkt.jpeg"
-        alt="Portrait photo of Modou K Touray"
+        alt="Portrait photo of Ayushman"
         @mouseenter="imagePopup"
         @mouseleave="imagePopdown"
       />
@@ -13,21 +13,26 @@
         <FindMeIcons
           class="email"
           title="email"
-          content="ayushman.gupta308@gmail.com"
+          content="touraymodouk11@gmail.com.com"
         />
         <FindMeIcons
           title="github"
-          content="ayushman-git"
-          link="https://github.com/ayushman-git"
+          content="Modou K Touray"
+          link="https://github.com/mktcyber"
         />
         <FindMeIcons
           title="instagram"
-          content="ayushman_fx"
-          link="http://instagram.com/ayushman_fx"
+          content="engineerktouray"
+          link="http://instagram.com/engineerktouray"
         />
         <FindMeIcons
-          title="dribbble"
-          content="Duoro"
+          class="email"
+          title="email"
+          content="touraymodouk11@gmail.com.com"
+        />
+        <!-- <FindMeIcons
+          title="linkedin"
+          content="Linkedin"
           link="https://dribbble.com/Duoro"
         />
         <FindMeIcons
@@ -49,7 +54,7 @@
           title="medium"
           content="Duoro"
           link="https://medium.com/@Duoro"
-        />
+        /> -->
       </div>
     </div>
   </div>
@@ -58,7 +63,7 @@
 <script>
 import { TimelineLite } from "gsap/dist/gsap";
 
-import FindMeIcons from './FindMeIcons.vue'
+import FindMeIcons from "../components/FindMeIcons";
 export default {
   name: "FindMe",
   components: {
