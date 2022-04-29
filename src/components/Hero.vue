@@ -1,8 +1,8 @@
 <template>
   <main>
     <div class="hero-text">
-      <h1 ref="greeting">Hi I'm</h1>
-      <h2 ref="name">Modou K.</h2>
+      <h1 ref="greeting" class="text-white">Hi I'm</h1>
+      <h2 ref="name" class="text-white">Modou K.</h2>
       <div ref="profession" @click="goToMe" class="title-wrapper">
         <h3>Software Developer</h3>
       </div>
@@ -13,7 +13,7 @@
         @mouseleave="imagePopdown"
         ref="img"
         src="../assets/images/mkt.jpeg"
-        alt="Portrait photo of Ayushman"
+        alt="Portrait photo of MKT"
       />
     </aside>
   </main>

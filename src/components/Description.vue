@@ -1,8 +1,8 @@
 <template>
   <article>
-    <h2>A little about me</h2>
+    <h2 class="text-white">A little about me</h2>
     <p>
-      I am a Front-End Developer with experience in building responsive websites
+      I am a Full-stack Developer experienced in building responsive web apps
       while keeping the aesthetic integrity. Proficient in semantic
       <span
         ref="reactive"
@@ -15,7 +15,7 @@
         ref="gdesign"
         @mouseenter="gHighlight"
         @mouseleave="gHighlightRemove"
-        >VueJs</span
+        >Laravel and Vuejs</span
       >
       . Always puts effort in making User Interface beautiful and practical with
       tools like
@@ -125,6 +125,7 @@ export default {
 </script>
 
 <style scoped>
+
 p {
   font-size: clamp(16px, 1.2vw, 1.2vw);
   line-height: 2;

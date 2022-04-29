@@ -11,9 +11,6 @@
         <a @click="openURL('me')">About Me</a>
       </li>
       <li>
-        <a @click="openURL('work')">Work</a>
-      </li>
-      <li>
         <a @click="openURL('find-me')">Find Me</a>
       </li>
     </ul>

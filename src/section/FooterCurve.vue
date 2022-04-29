@@ -1,7 +1,8 @@
 <template>
   <div>
     <footer>
-      <img src="../assets/logo/logo-dark.svg" alt="mkt logo" />
+      <!-- <img src="../assets/logo/logo-dark.svg" alt="mkt logo" /> -->
+      <h1>MKT</h1>
       <div class="vertical-divider"></div>
       <h1>Modou K Touray</h1>
     </footer>

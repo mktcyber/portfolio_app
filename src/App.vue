@@ -94,7 +94,7 @@ export default {
     },
   },
   metaInfo: {
-    title: "Ayushman - Portfolio",
+    title: "MKT - Portfolio",
     meta: [
       {
         name: "theme-color",
@@ -102,7 +102,7 @@ export default {
       },
       {
         name: "description",
-        content: "Portfolio website of Ayushman Gupta",
+        content: "Portfolio website of Modou K Touray",
       },
     ],
   },
@@ -118,7 +118,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  background-color: #1c1c1c;
+  background-color: #a03b3b;
   color: rgb(6, 4, 4);
   position: relative;
   overflow-x: hidden;
@@ -131,6 +131,9 @@ body {
   width: 30px;
   cursor: pointer;
   position: fixed;
+}
+#app{
+  background-color: black;
 }
 .logo {
   top: 0;

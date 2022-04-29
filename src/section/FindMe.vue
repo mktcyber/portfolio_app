@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <h1>Find Me</h1>
+    <h1 class="text-white">Find Me</h1>
     <div class="find-me-container">
       <img
         ref="img"
@@ -9,7 +9,7 @@
         @mouseenter="imagePopup"
         @mouseleave="imagePopdown"
       />
-      <div class="icons">
+      <div class="icons text-white">
         <FindMeIcons
           class="email"
           title="email"
