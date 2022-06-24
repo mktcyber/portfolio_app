@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/icons/resume.png" alt="resume download" />
+    <img src="../assets/icons/resume.pdf" alt="resume download" />
   </div>
 </template>
 
