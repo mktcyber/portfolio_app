@@ -32,9 +32,9 @@ export default {
 nav {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: rgb(27, 24, 24);
   width: 40vw;
-  color: #1c1c1c;
+  color: #f6f2f2;
 }
 
 ul {

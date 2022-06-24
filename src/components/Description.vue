@@ -2,8 +2,13 @@
   <article>
     <h2 class="text-white">A little about me</h2>
     <p>
-      I am a Full-stack Developer experienced in building responsive web apps
-      while keeping the aesthetic integrity. Proficient in semantic
+      Inquisitive, energetic computer science specialist skilled in leadership, with a good foundation in math, logic, and
+      cross-platform coding. I am a Full-stack Developer experienced in building responsive web apps
+      while keeping the aesthetic integrity. Experienced participating in the complete
+      product development lifecycle of successfully launched applications. Seeking to leverage solid skills in
+      collaboration, communication, and development as a programmer/researcher to contribute to the development
+      of technology in my region
+      . Proficient in semantic
       <span
         ref="reactive"
         @mouseenter="reactiveHighlight"

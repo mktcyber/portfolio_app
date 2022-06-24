@@ -26,35 +26,10 @@
           link="http://instagram.com/engineerktouray"
         />
         <FindMeIcons
-          class="email"
-          title="email"
-          content="touraymodouk11@gmail.com.com"
-        />
-        <!-- <FindMeIcons
           title="linkedin"
-          content="Linkedin"
-          link="https://dribbble.com/Duoro"
+          content="Modou K Touray"
+          link="https://www.linkedin.com/in/modou-k-touray-304786162/"
         />
-        <FindMeIcons
-          title="behance"
-          content="Ayushman"
-          link="https://www.behance.net/duoro"
-        />
-        <FindMeIcons
-          title="500px"
-          content="Ayushman"
-          link="https://500px.com/p/duoro?view=photos"
-        />
-        <FindMeIcons
-          title="deviantart"
-          content="Duoro"
-          link="https://www.deviantart.com/duoro"
-        />
-        <FindMeIcons
-          title="medium"
-          content="Duoro"
-          link="https://medium.com/@Duoro"
-        /> -->
       </div>
     </div>
   </div>
