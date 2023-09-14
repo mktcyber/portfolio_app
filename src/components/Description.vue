@@ -2,39 +2,31 @@
   <article>
     <h2 class="text-white">A little about me</h2>
     <p>
-      Inquisitive, energetic computer science specialist skilled in leadership, with a good foundation in math, logic, and
-      cross-platform coding. I am a Full-stack Developer experienced in building responsive web apps
-      while keeping the aesthetic integrity. Experienced participating in the complete
-      product development lifecycle of successfully launched applications. Seeking to leverage solid skills in
-      collaboration, communication, and development as a programmer/researcher to contribute to the development
-      of technology in my region
-      . Proficient in semantic
+      An IT specialist with a strong background in Computer Networks, AI development, and Full Stack Web
+      Development. Possessing strong technical acumen and hands-on experience in managing network infrastructure,
+      designing,building and implementing AI-based solutions, and creating robust web applications.
+      Aspiring DevOps/Cloud Engineer with a strong foundation in Google Cloud Platform (GCP) and AWS gained through the
+      completion of a comprehensive Google Cloud course and hands-on projects. A quick learner and detail-oriented
+      individual with a passion for technologies and a desire to contribute my technical expertise to a dynamic
+      team. I am profcient in the following languages and technologies:
       <span
         ref="reactive"
         @mouseenter="reactiveHighlight"
         @mouseleave="reactiveHighlightRemove"
-        >HTML, CSS, JavaScript</span
+        >Java, Python, JavaScript, Laravel, Machine Learning</span
       >
-      and modern frameworks like
+      and got hands-on with
       <span
         ref="gdesign"
         @mouseenter="gHighlight"
         @mouseleave="gHighlightRemove"
-        >Laravel and Vuejs</span
-      >
-      . Always puts effort in making User Interface beautiful and practical with
-      tools like
-      <span
-        ref="uidesign"
-        @mouseenter="uiHighlight"
-        @mouseleave="uiHighlightRemove"
-        >Figma</span
+        >GCP, AWS(MultiCloud), GKE, Docker and Terraform</span
       >
       .
     </p>
     <p>
       In my free time I work on cool projects while experimenting with new
-      technologies especially in the field of AI. Currently I'm working on OCR a document, form, or invoice with Tesseract, OpenCV, and Python.
+      technologies especially in the field of cloud computing and AI. 
     </p>
     <ul>
       <li>

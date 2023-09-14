@@ -18,7 +18,7 @@
         <FindMeIcons
           title="github"
           content="Modou K Touray"
-          link="https://github.com/mktcyber"
+          link="https://github.com/modouktouray/portfolio"
         />
         <FindMeIcons
           title="instagram"
